@@ -1,60 +1,59 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<script src="clock.js"></script>
-		<title>home</title>
-	</head>
-	<body onload="startTime()">
-		<div class="container">
-			<div class="prompt"><span class="user">mikey</span>:<span class="directory">~</span>> ./greet.sh</div>
-			<h3>Hi, Mike! The time is </h3><div id="clock"></div>
-			<div class="prompt"><span class="user">mikey</span>:<span class="directory">~</span>> tree --dirsfirst</div>
-			<div class="tree">
-				<h1>.</h1>
-				<ul>
-					<li>
-						<h1>play</h1>
-						<ul>
-							<li><a href="https://reddit.com">reddit</a></li>
-							<li><a href="https://youtube.com">youtube</a></li>
-						</ul>
-					</li>
-					<li>
-						<h1>work</h1>
-						<ul>
-							<li><a href="https://github.com">github</a></li>
-							<li><a href="https://mail.google.com">gmail</a></li>
-						</ul>
-					</li>
-					<li>
-						<h1>shop</h1>
-						<ul>
-							<li><a href="https://amazon.com">amazon</a></li>
-							<li><a href="https://ebay.com">ebay</a></li>
-						</ul>
-					</li>
-					<li>
-						<h1>this</h1>
-						<ul>
-							<li><a href="http://lyra.myon.xyz:32400/">plex</a></li>
-							<li><a href="/searx">searx</a></li>
-						</ul>
-					</li>
-					<li>
-						<h2>greet.sh</h2>
-					</li>
-					<li>
-						<h2>ddg.sh</h2>
-					</li>
-				</ul>
-			</div>
-			<div class="prompt"><span class="user">mikey</span>:<span class="directory">~</span>> ./ddg.sh</div>
-			<form action="https://duckduckgo.com/" method="GET" autocomplete="off">
-				<h1>search: </h1>
-				<input type="text" name="q" autofocus="autofocus">
-			</form>
-		</div>
-	</body>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="clock.js"></script>
+    <title>home</title>
+  </head>
+  <body onload="startTime()">
+    <div class="container">
+      <div class="prompt"><span class="user">mikey</span>:<span class="directory">~</span>> ./greet.sh</div>
+      <h3>Hi, Mike! The time is </h3><div id="clock"></div>
+      <div class="prompt"><span class="user">mikey</span>:<span class="directory">~</span>> tree --dirsfirst</div>
+      <div class="tree">
+        <h1>.</h1>
+        <ul>
+          <li>
+            <h1>play</h1>
+            <ul>
+              <li><a href="https://reddit.com">reddit</a></li>
+              <li><a href="https://youtube.com">youtube</a></li>
+            </ul>
+          </li>
+          <li>
+            <h1>work</h1>
+            <ul>
+              <li><a href="https://github.com">github</a></li>
+              <li><a href="https://mail.google.com">gmail</a></li>
+            </ul>
+          </li>
+          <li>
+            <h1>shop</h1>
+            <ul>
+              <li><a href="https://amazon.com">amazon</a></li>
+              <li><a href="https://ebay.com">ebay</a></li>
+            </ul>
+          </li>
+          <li>
+            <h1>this</h1>
+            <ul>
+              <li><a href="http://lyra.myon.xyz:32400/">plex</a></li>
+            </ul>
+          </li>
+          <li>
+            <h2>greet.sh</h2>
+          </li>
+          <li>
+            <h2>ddg.sh</h2>
+          </li>
+        </ul>
+      </div>
+      <div class="prompt"><span class="user">mikey</span>:<span class="directory">~</span>> ./ddg.sh</div>
+      <form action="https://duckduckgo.com/" method="GET" autocomplete="off">
+        <h1>search: </h1>
+        <input type="text" name="q" autofocus="autofocus">
+      </form>
+    </div>
+  </body>
 </html>
